@@ -4,3 +4,16 @@
 *.jar
 *.war
 *.ear
+
+# IDE Config Files #
+.project
+.classpath
+.idea
+*.iml
+
+# Maven Files #
+target
+
+# Maven Release Files #
+release.properties
+pom.xml.releaseBackup
