@@ -54,6 +54,7 @@
         <!-- Test -->
         <version.junit>4.11</version.junit>
         <version.hamcrest>1.3</version.hamcrest>
+        <version.fastjson>1.1.39</version.fastjson>
     </properties>
 
     <dependencies>
@@ -74,6 +75,12 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
             <version>${version.hamcrest}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${version.fastjson}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
